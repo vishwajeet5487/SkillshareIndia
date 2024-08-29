@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Skill Share India</title>
-        <link rel="stylesheet" href="./output.css">
-        
-        <!-- Favicon and Apple Touch Icons -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/Photos/favicon_io/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/Photos/favicon_io/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/Photos/favicon_io/favicon-16x16.png">
-        <link rel="manifest" href="/Photos/favicon_io/site.webmanifest">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="theme-color" content="#ffffff">
-    </head>
-    
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill Share India</title>
+    <link rel="stylesheet" href="./output.css" />
+
+    <!-- Favicon and Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/Photos/favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/Photos/favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/Photos/favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="/Photos/favicon_io/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
+
 <body class="flex flex-col min-h-screen bg-gray-100 text-gray-900">
     <!-- Header Section -->
     <header class="bg-white shadow-lg">
         <div class="container mx-auto flex justify-between items-center p-5">
             <!-- Logo -->
             <div class="flex items-center space-x-2">
-                <img id="logo" src="Photos/OffBulb.png" alt="SkillShareIndia Logo" class="w-8 h-8">
+                <img id="logo" src="Photos/OffBulb.png" alt="SkillShareIndia Logo" class="w-8 h-8" />
                 <div class="text-3xl font-extrabold text-blue-800">
                     <a href="#">SkillShareIndia</a>
                 </div>
@@ -30,16 +31,30 @@
             <!-- Navigation Menu -->
             <nav>
                 <ul class="hidden md:flex space-x-10 text-gray-800 font-bold justify-center">
-                    <li><a href="#" class="hover:text-blue-700 hover:scale-105 transition-transform duration-200">Home</a></li>
-                    <li><a href="#" class="hover:text-blue-700 hover:scale-105 transition-transform duration-200">About Us</a></li>
-                    <li><a href="#" class="hover:text-blue-700 hover:scale-105 transition-transform duration-200">Services</a></li>
+                    <li>
+                        <a href="#"
+                            class="hover:text-blue-700 hover:scale-105 transition-transform duration-200">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hover:text-blue-700 hover:scale-105 transition-transform duration-200">About
+                            Us</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="hover:text-blue-700 hover:scale-105 transition-transform duration-200">Services</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/place/Skillshare+India/@28.6412599,77.3765983,15z/data=!4m8!3m7!1s0x390cfb97bbe6d78f:0xaeeb4f706e3740b!8m2!3d28.6412599!4d77.3765983!9m1!1b1!16s%2Fg%2F11tsqx2026?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="block hover:text-blue-700 hover:scale-105 transition-transform duration-200">Feedback</a>
+                    </li>
                 </ul>
             </nav>
             <!-- Mobile Menu Button -->
             <div class="md:hidden">
                 <button id="menu-button" class="text-blue-800 focus:outline-none">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16m-7 6h7"></path>
                     </svg>
                 </button>
             </div>
@@ -47,38 +62,70 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden">
             <ul class="flex flex-col items-center space-y-4 p-5 text-gray-800 bg-white shadow-lg font-bold">
-                <li><a href="#" class="block hover:text-blue-700 hover:scale-105 transition-transform duration-200">Home</a></li>
-                <li><a href="#" class="block hover:text-blue-700 hover:scale-105 transition-transform duration-200">About Us</a></li>
-                <li><a href="#" class="block hover:text-blue-700 hover:scale-105 transition-transform duration-200">Services</a></li>
+                <li>
+                    <a href="#"
+                        class="block hover:text-blue-700 hover:scale-105 transition-transform duration-200">Home</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="block hover:text-blue-700 hover:scale-105 transition-transform duration-200">About Us</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="block hover:text-blue-700 hover:scale-105 transition-transform duration-200">Services</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/place/Skillshare+India/@28.6412599,77.3765983,15z/data=!4m8!3m7!1s0x390cfb97bbe6d78f:0xaeeb4f706e3740b!8m2!3d28.6412599!4d77.3765983!9m1!1b1!16s%2Fg%2F11tsqx2026?entry=ttu&g_ep=EgoyMDI0MDgyNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="block hover:text-blue-700 hover:scale-105 transition-transform duration-200">Feedback</a>
+                </li>
             </ul>
         </div>
     </header>
 
-   
-<!-- About Us Section -->
-<section id="about" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
-    <div class="container mx-auto px-5 md:px-10 lg:px-20 text-center">
-        <h1 class="text-4xl md:text-5xl font-extrabold mb-6">Experience the Difference</h1>
-        <p class="text-lg md:text-xl mb-12 leading-relaxed">
-            SkillShare India is the leading educational consultancy for schools across India. Our mission is to offer unparalleled professional assistance to all educational stakeholders.
-        </p>
-        <!-- Founder Information -->
-        <div class="md:flex md:justify-center md:items-center space-y-10 md:space-y-0 md:space-x-12">
-            <div class="flex justify-center">
-                <img src="./" alt="Founder Name" class="w-40 h-40 md:w-56 md:h-56 rounded-full shadow-xl border-4 border-white">
-            </div>
-            <div class="md:text-left">
-                <h2 class="text-2xl md:text-3xl font-bold">Ms. Monika Kapoor</h2>
-                <p class="mt-4 text-lg md:text-xl leading-relaxed">
-                    The Founder and CEO of SkillShare India and former joint Director of CBSE believes in hand-holding and sharing her expertise in accreditation (SQAA) training, career counseling, and bringing innovative solutions to schools.
+    <!-- About Us Section -->
+    <section id="about" class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20">
+        <div class="container mx-auto px-5 md:px-10 lg:px-20">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-6 text-center">
+                Experience the Difference
+            </h1>
+            <p class="text-lg md:text-xl mb-12 leading-relaxed text-center">
+                SkillShare India is the leading educational consultancy for
+                schools across India. Our mission is to offer unparalleled
+                professional assistance to all educational stakeholders.
+            </p>
+
+            <div class="lg:w-100 grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-y-0 md:gap-x-6 items-center">
+                <div class="flex flex-col items-center md:items-end">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/safarnama-c075f.appspot.com/o/Assets%2FWhatsApp%20Image%202024-08-28%20at%2013.04.15_d067c916new.jpg?alt=media&token=3d53e6ba-40bb-4f19-9a32-8db75a6dce7b"
+                        alt="Ms. Monika Kapoor"
+                        class="w-40 h-40 md:w-56 md:h-56 rounded-full shadow-xl border-4 border-white" />
+
+                    <div class="w-60 md:w-56 bg-white rounded-lg p-5 text-center shadow-lg mt-4">
+                        <h2 class="text-xl font-bold text-gray-900">
+                            Ms. Monika Kapoor
+                        </h2>
+                        <p class="text-gray-700">
+                            SkillShare India, Founder & CEO.<br />Former
+                            Joint Director (CBSE)
+                        </p>
+                    </div>
+                </div>
+
+                <p class="text-lg md:text-xl text-white">
+                    Ms. Monika Kapoor is a visionary in the field of
+                    education with a vast experience that spans over two
+                    decades. As the founder and CEO of SkillShare India, she
+                    has been instrumental in revolutionizing educational
+                    consultancy. Her previous role as the Joint Director of
+                    CBSE has endowed her with a deep understanding of the
+                    Indian education system, enabling her to provide
+                    insightful and impactful guidance to schools and
+                    educators across the nation.
                 </p>
             </div>
         </div>
-    </div>
-</section>
-        
-    
-         <!-- Main Content -->
+    </section>
+
+    <!-- Main Content -->
     <main class="container mx-auto p-6">
         <!-- Slogan Section -->
         <section class="mb-16">
@@ -91,136 +138,232 @@
 
         <!-- Our Services Section -->
         <section id="services" class="mb-16">
-            <h2 class="text-3xl font-bold mb-10 text-center text-blue-800">Our Services</h2>
+            <h2 class="text-3xl font-bold mb-10 text-center text-blue-800">
+                Our Services
+            </h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-3 text-white">School Quality Assessment & Assurance</h3>
+                <div
+                    class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-3 text-white">
+                        School Quality Assessment & Assurance
+                    </h3>
                     <p class="text-white">Quality audit of schools.</p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-green-500 to-lime-500 hover:from-green-600 hover:to-lime-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-3 text-white">Competency Mapping of Teachers</h3>
+                <div
+                    class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-green-500 to-lime-500 hover:from-green-600 hover:to-lime-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-3 text-white">
+                        Competency Mapping of Teachers
+                    </h3>
                     <p class="text-white">Academic audit.</p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-3 text-white">Trainings</h3>
+                <div
+                    class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-3 text-white">
+                        Trainings
+                    </h3>
                     <p class="text-white">Need of the hour.</p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-3 text-white">National Teachers Olympiad</h3>
-                    <p class="text-white">Focused on education policies and frameworks.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-3 text-white">
+                        National Teachers Olympiad
+                    </h3>
+                    <p class="text-white">
+                        Focused on education policies and frameworks.
+                    </p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-3 text-white">Spell Craft Olympiad for Students</h3>
-                    <p class="text-white">Engaging and educational spelling competitions.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-purple-500 to-indigo-500 hover:from-purple-600 hover:to-indigo-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-3 text-white">
+                        Spell Craft Olympiad for Students
+                    </h3>
+                    <p class="text-white">
+                        Engaging and educational spelling competitions.
+                    </p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-3 text-white">Recruitment</h3>
-                    <p class="text-white">Effective recruitment strategies for schools.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-teal-500 to-cyan-500 hover:from-teal-600 hover:to-cyan-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-3 text-white">
+                        Recruitment
+                    </h3>
+                    <p class="text-white">
+                        Effective recruitment strategies for schools.
+                    </p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-3 text-white">Career Counselling / Study Abroad</h3>
-                    <p class="text-white">Guidance on educational and career paths.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-orange-500 to-yellow-500 hover:from-orange-600 hover:to-yellow-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-3 text-white">
+                        Career Counselling / Study Abroad
+                    </h3>
+                    <p class="text-white">
+                        Guidance on educational and career paths.
+                    </p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-3 text-white">From Vision to Victory: Comprehensive Consultancy for New School Set Up</h3>
-                    <p class="text-white">From planning to execution of new schools.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-pink-500 to-red-500 hover:from-pink-600 hover:to-red-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-3 text-white">
+                        From Vision to Victory: Comprehensive Consultancy
+                        for New School Set Up
+                    </h3>
+                    <p class="text-white">
+                        From planning to execution of new schools.
+                    </p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-3 text-white">Tailored Consultancy for Schools to Next Level</h3>
-                    <p class="text-white">School improvement, boosting admissions, and efficient management.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl card bg-gradient-to-r from-indigo-500 to-purple-500 hover:from-indigo-600 hover:to-purple-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-3 text-white">
+                        Tailored Consultancy for Schools to Next Level
+                    </h3>
+                    <p class="text-white">
+                        School improvement, boosting admissions, and
+                        efficient management.
+                    </p>
                 </div>
             </div>
         </section>
 
         <!-- Key Frameworks & Policies Section -->
         <section id="frameworks" class="mb-16">
-            <h2 class="text-3xl font-bold mb-10 text-center text-blue-800">Key Frameworks & Policies</h2>
+            <h2 class="text-3xl font-bold mb-10 text-center text-blue-800">
+                Key Frameworks & Policies
+            </h2>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Framework Card -->
-                <div class="p-8 rounded-lg shadow-xl bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-4 text-white">National Education Policy 2020</h3>
-                    <p class="text-white">Details and insights on the 2020 national education policy and its impact on schools.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl bg-gradient-to-r from-blue-500 to-teal-500 hover:from-blue-600 hover:to-teal-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-4 text-white">
+                        National Education Policy 2020
+                    </h3>
+                    <p class="text-white">
+                        Details and insights on the 2020 national education
+                        policy and its impact on schools.
+                    </p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl bg-gradient-to-r from-green-500 to-lime-500 hover:from-green-600 hover:to-lime-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-4 text-white">Sustainable Development Goals</h3>
-                    <p class="text-white">Overview of sustainable development goals and their relevance to educational institutions.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl bg-gradient-to-r from-green-500 to-lime-500 hover:from-green-600 hover:to-lime-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-4 text-white">
+                        Sustainable Development Goals
+                    </h3>
+                    <p class="text-white">
+                        Overview of sustainable development goals and their
+                        relevance to educational institutions.
+                    </p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-4 text-white">School Quality Assessment & Assurance</h3>
-                    <p class="text-white">A framework for assessing and assuring quality in schools.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-4 text-white">
+                        School Quality Assessment & Assurance
+                    </h3>
+                    <p class="text-white">
+                        A framework for assessing and assuring quality in
+                        schools.
+                    </p>
                 </div>
-                <div class="p-8 rounded-lg shadow-xl bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 transition-transform transform hover:scale-105">
-                    <h3 class="text-xl font-bold mb-4 text-white">National Curriculum Framework</h3>
-                    <p class="text-white">Information on the national curriculum framework and its implementation.</p>
+                <div
+                    class="p-8 rounded-lg shadow-xl bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 transition-transform transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-4 text-white">
+                        National Curriculum Framework
+                    </h3>
+                    <p class="text-white">
+                        Information on the national curriculum framework and
+                        its implementation.
+                    </p>
                 </div>
             </div>
         </section>
     </main>
-    
- <!-- Footer Section -->
-<footer class="bg-gray-800 text-white py-10">
-    <div class="container mx-auto px-5">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-            <!-- Links to Key Pages -->
-            <div>
-                <h3 class="text-lg font-bold mb-4">Quick Links</h3>
-                <ul class="space-y-2">
-                    <li><a href="#" class="hover:text-blue-400">Home</a></li>
-                    <li><a href="#about" class="hover:text-blue-400">About Us</a></li>
-                    <li><a href="#services" class="hover:text-blue-400">Services</a></li>
-                </ul>
-            </div>
 
-            <!-- Social Media Icons -->
-            <div>
-                <h3 class="text-lg font-bold mb-4">Follow Us</h3>
-                <div class="flex justify-center space-x-4">
-                    <a href="https://facebook.com" class="hover:text-blue-400" aria-label="Facebook">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 4.9 3.5 9 8 9.8V15h-2v-3h2v-2.5c0-2.2 1.3-3.5 3.3-3.5.7 0 1.5.1 2.2.3v2.5h-1.5c-1.2 0-1.5.6-1.5 1.4V12h3l-.5 3h-2.5v6.8c4.5-.8 8-4.9 8-9.8z"></path>
-                        </svg>
-                    </a>
-                    <a href="https://twitter.com" class="hover:text-blue-400" aria-label="Twitter">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M22 4.01c-.77.35-1.6.59-2.46.69.89-.54 1.56-1.4 1.88-2.42-.84.5-1.77.86-2.75 1.05A4.74 4.74 0 0015.48 2c-2.62 0-4.74 2.13-4.74 4.75 0 .37.04.74.12 1.09C7.11 7.6 3.8 5.87 1.67 3.17c-.4.68-.63 1.46-.63 2.29 0 1.58.8 2.97 2.02 3.79-.74-.03-1.44-.23-2.06-.57v.06c0 2.21 1.57 4.06 3.65 4.48-.38.1-.78.16-1.2.16-.29 0-.57-.03-.85-.08.57 1.78 2.24 3.08 4.2 3.12-1.54 1.21-3.47 1.93-5.58 1.93-.36 0-.72-.02-1.07-.06 1.99 1.28 4.34 2.02 6.86 2.02 8.23 0 12.73-6.82 12.73-12.73 0-.2-.01-.39-.02-.58A9.14 9.14 0 0024 5.5c-.88.39-1.82.66-2.8.78z"></path>
-                        </svg>
-                    </a>
-                    <a href="https://linkedin.com" class="hover:text-blue-400" aria-label="LinkedIn">
-                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2.04C6.48 2.04 2 6.52 2 12.04c0 4.74 3.66 8.65 8.38 9.42v-6.65H7.89v-2.77h2.49v-2.1c0-2.49 1.49-3.85 3.76-3.85 1.09 0 2.23.2 2.23.2v2.44h-1.26c-1.24 0-1.63.78-1.63 1.58v1.73h2.78l-.44 2.77h-2.34v6.65c4.72-.77 8.38-4.68 8.38-9.42 0-5.52-4.48-10-10-10z"></path>
-                        </svg>
-                    </a>
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-5">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <!-- Links to Key Pages -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="#" class="hover:text-blue-400">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="hover:text-blue-400">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="hover:text-blue-400">Services</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Icons -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Follow Us</h3>
+                    <div class="flex justify-center space-x-4">
+                        <a href="https://facebook.com" class="hover:text-blue-400" aria-label="Facebook">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22 12c0-5.5-4.5-10-10-10S2 6.5 2 12c0 4.9 3.5 9 8 9.8V15h-2v-3h2v-2.5c0-2.2 1.3-3.5 3.3-3.5.7 0 1.5.1 2.2.3v2.5h-1.5c-1.2 0-1.5.6-1.5 1.4V12h3l-.5 3h-2.5v6.8c4.5-.8 8-4.9 8-9.8z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" class="hover:text-blue-400" aria-label="Twitter">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22 4.01c-.77.35-1.6.59-2.46.69.89-.54 1.56-1.4 1.88-2.42-.84.5-1.77.86-2.75 1.05A4.74 4.74 0 0015.48 2c-2.62 0-4.74 2.13-4.74 4.75 0 .37.04.74.12 1.09C7.11 7.6 3.8 5.87 1.67 3.17c-.4.68-.63 1.46-.63 2.29 0 1.58.8 2.97 2.02 3.79-.74-.03-1.44-.23-2.06-.57v.06c0 2.21 1.57 4.06 3.65 4.48-.38.1-.78.16-1.2.16-.29 0-.57-.03-.85-.08.57 1.78 2.24 3.08 4.2 3.12-1.54 1.21-3.47 1.93-5.58 1.93-.36 0-.72-.02-1.07-.06 1.99 1.28 4.34 2.02 6.86 2.02 8.23 0 12.73-6.82 12.73-12.73 0-.2-.01-.39-.02-.58A9.14 9.14 0 0024 5.5c-.88.39-1.82.66-2.8.78z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com" class="hover:text-blue-400" aria-label="LinkedIn">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12 2.04C6.48 2.04 2 6.52 2 12.04c0 4.74 3.66 8.65 8.38 9.42v-6.65H7.89v-2.77h2.49v-2.1c0-2.49 1.49-3.85 3.76-3.85 1.09 0 2.23.2 2.23.2v2.44h-1.26c-1.24 0-1.63.78-1.63 1.58v1.73h2.78l-.44 2.77h-2.34v6.65c4.72-.77 8.38-4.68 8.38-9.42 0-5.52-4.48-10-10-10z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Contact Us</h3>
+                    <p class="mb-2">
+                        723 Tower C, Seventh Floor, Logix Cyberpark
+                    </p>
+                    <p class="mb-2">Sector 62, Noida, UP 201301</p>
+                    <p class="mb-2">
+                        Email:
+                        <a href="mailto:skillshareindia00@gmail.com"
+                            class="hover:text-blue-400">info@skillshareindia.com</a>
+                    </p>
+                    <p class="mb-4">Phone: +91 9765661148</p>
+                    <p class="mb-4">Phone: +91 8700630842</p>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">
+                        Send Us a Message
+                    </h3>
+                    <form id="contact-form" class="space-y-4">
+                        <input id="email-input" type="email" placeholder="Enter your email"
+                            class="w-full px-3 py-2 rounded-lg text-gray-700 focus:outline-none" required />
+                        <textarea id="message-input" placeholder="Your message"
+                            class="w-full px-3 py-2 rounded-lg text-gray-700 focus:outline-none" rows="4"
+                            required></textarea>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg">
+                            Send
+                        </button>
+                        <p id="form-message" class="hidden text-green-400">
+                            Thank you for your message!
+                        </p>
+                    </form>
                 </div>
             </div>
-
-            <!-- Contact Information -->
-            <div>
-                <h3 class="text-lg font-bold mb-4">Contact Us</h3>
-                <p class="mb-2">723 Tower C, Seventh Floor, Logix Cyberpark</p>
-                <p class="mb-2">Sector 62, Noida, UP 201301</p>
-                <p class="mb-2">Email: <a href="mailto:skillshareindia00@gmail.com" class="hover:text-blue-400">info@skillshareindia.com</a></p>
-                <p class="mb-4">Phone: +91 9765661148</p>
-                <p class="mb-4">Phone: +91 8700630842</p>
-            </div>
-
-            <!-- Contact Form -->
-            <div>
-                <h3 class="text-lg font-bold mb-4">Send Us a Message</h3>
-                <form id="contact-form" class="space-y-4">
-                    <input id="email-input" type="email" placeholder="Enter your email" class="w-full px-3 py-2 rounded-lg text-gray-700 focus:outline-none" required>
-                    <textarea id="message-input" placeholder="Your message" class="w-full px-3 py-2 rounded-lg text-gray-700 focus:outline-none" rows="4" required></textarea>
-                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg">Send</button>
-                    <p id="form-message" class="hidden text-green-400">Thank you for your message!</p>
-                </form>
-            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
-
-
-
-    
-   <script src="./script.js"></script>
+    <script src="./script.js"></script>
 </body>
+
 </html>
